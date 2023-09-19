@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script rel="stylesheet" src="js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/561706ce4a.js" crossorigin="anonymous"></script>
+    <style>
+        .row{
+            margin-top: 7rem;
+        }
+        .main{
+            margin: 60px;
+        }
+        .card{
+            margin-top: -100px;
+            margin-left: -15px;
+            font-weight: 700;
+            padding: 5px;
+            border: none;
+            z-index: 1;
+            color: black;
+            transition: 0.5s;
+            box-shadow: 0px 7px 10px 0px rgb(221, 220, 220);
+            border-radius:0;
+        }
+        
+        .link1
+        {
+            color: #636262;
+        }
+        a {
+            text-decoration: none;
+            color: #3c3c50;
+        }
+        .more-link{
+            color: rgba(128, 128, 128, 0.384);
+        }
+        i
+        {
+            vertical-align: middle;
+            
+        }
+        p{
+            color: black;
+        }
+        .card::before{
+            content: '';
+            height: 100%;
+            width: 0%;
+            z-index: -1;
+            background: linear-gradient(to right, #0072ff, #00c6ff);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: 0.5s;
+        }
+        .card:hover{
+            margin-top: -120px;
+            box-shadow: none;
+        }
+        #box:hover .card{
+            margin-top: -120px;
+        }
+        #box:hover #img{
+            filter: brightness(40%);
+        }
+        .card:hover a,p{
+            color: white;
+        } 
+        #box:hover a,p{
+            color: white;
+        } 
+        #box:hover .card::before{
+            width: 100%;
+        }
+        .card:hover::before{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header id="main-header" style="top: 0px;">
+        <nav class="navbar navbar-dark bg-dark"> 
+            <div class="container">
+                <a href="index.html" class="navbar-brand">needyesterday</a>
+                <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <span class="navbar-toggler-icon"></span>
+                </a>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-body bg-dark">
+                    <div class="dropdown mt-3" style="text-align:left;">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link text-white">Overview</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">UI Header</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">UI Pricing</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">UI Contents</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link text-white">UI About</a></li>
+                            <li class="nav-item"><a href="blog3.html" class="nav-link text-white">UI Blog</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">UI Portfolio</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">UI Optin-Forms</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">UI Cards</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link text-white">UI Contacts</a></li>
+                            <li class="nav-item"><a href="testimonials.html" class="nav-link text-white">UI Testimonials</a>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">UI Team</a></li>
+                            <li class="nav-item"><a href="servises.html" class="nav-link text-white">UI Services</a>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">UI WireFrame</a></li>
+                            <li class="nav-item"><a href="feature.html" class="nav-link text-white">UI Features</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- blog -->
+
+    <div class="main">
+        <div>
+            <div class="row">
+                
+                <div class="col-md-4" id="box">
+                    <div id="img">
+                        <img src="images/blog1.jpg">
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="card-body">
+                          <h3 class="card-title"><a href="#" class="link"><b>Headline</b></a></h3>
+                          <h3 class="card-title"><a href="#" class="link"><b>Blogpost 3</b></h3>
+                          <a href="#" class="link1">May 15, 2018 | Business</a><br>
+                          <a href="#" class="more-link">read more  <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="box">
+                    <div id="img">
+                        <img src="images/blog2.jpg">
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="card-body">
+                          <h3 class="card-title"><a href="#" class="link"><b>Headline</b></a></h3>
+                          <h3 class="card-title"><a href="#" class="link"><b>Blogpost 2</b></a></h3>
+                          <a href="#" class="link1">May 15, 2018 | Web <br> Marketing </a><br>
+                          <a href="#" class="more-link">read more  <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="box">
+                    <div id="img">
+                        <img src="images/blog3.jpg" >
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <div class="card-body">
+                          <h3 class="card-title"><a href="#" class="link"><b>Headline</b></a></h3>
+                          <h3 class="card-title"><a href="#" class="link"><b>Blogpost 1</b></a></h3>
+                          <a href="#" class="link1">May 15, 2018 | Business</a><br>
+                          <a href="#" class="more-link">read more  <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+*
+{
+  font-family: 'Poppins',sans-serif;
+}
+.navbar-brand
+{
+    font-family: 'Poppins',sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.d-block {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 645px;
+  width: 100%;
+}
+#main-header
+{
+    transition: none;
+    box-shadow: none;
+    background-color: rgba(255,255,255,0);
+    font-weight: 500;
+    line-height: 23px;
+}
+#main-footer
+{
+  background-image: url("images/map-\(1\).png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+}
+#main-footer .container
+{
+  margin-top: 250px;
+}
+#footercontent
+{
+  border-left: 3px solid orange;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+.heading
+    {
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 700;
+    }
+    .title1 {
+        color: #739650;
+        font-weight: bold;
+    }
+    .card1 {
+        transition: 0.5s;
+        border: none;
+        margin-bottom: 40px;
+    }
+    .card1:hover {
+        transform: translate(0, -9px);
+        color: black;
+    }
+    .heading-1 {
+        float: right;
+        margin-top: 0px;
+    }
+    .headh5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 100px;
+    }
+    .headh6 {
+        font-size: 14px;
+        font-weight: 600;
+        float: right;
+    }
+    .imge {
+        float: left;
+    }
+.card
+{
+  transition: 0.5s;
+}
+ .card:hover
+{
+  background-color: rgba(110, 171, 196, 0.836);
+  color: white;
+   transform: scale(1,1.1);
+} 
+#linktext
+{
+  color: black;
+}
+#linktext:hover
+{
+  color: white;
+
+} 
+#footer-bottom
+{
+  background-color: rgba(6, 6, 94, 0.89);
+  padding: 30px;
+  text-align: center;
+  color:white;
+}
+#idproject
+{
+  color: white;
+  background-image: linear-gradient(rgba(3, 4, 54, 0.74),rgba(3, 4, 54, 0.74));  
+
+  /* background-image: linear-gradient(rgba(10, 47, 116, 0.904),rgba(0, 0, 0, 0.774));  */
+}
+.top-heading2
+{
+  font-weight: 700;
+
+}
+.title
+{
+  font-size: 20px;
+}

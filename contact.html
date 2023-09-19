@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script rel="stylesheet" src="js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="index.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/561706ce4a.js" crossorigin="anonymous"></script>
+  <style>
+    .main-header1 {
+      background-blend-mode: overlay;
+      background-image: url("images/contact-office-bg.jpg"), linear-gradient(180deg, rgba(12, 18, 38, 0.9)100%, rgba(12, 18, 38, 0.8) 100%);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      color: white;
+    }
+    .container {
+      color: #f1f1f1;
+      outline: none;
+      width: 100%;
+      padding: 5px;
+      border: none;
+    }
+
+    #btn1 {
+      width: 550px;
+      text-transform: uppercase;
+      border: none;
+      padding: 10px;
+      border-radius: 50px;
+    }
+
+    #btn1:hover {
+      background-color: transparent;
+      color: #f1f1f1;
+      border: 1px solid gray;
+      width: 100%;
+      padding: 20px;
+    }
+
+    #frm {
+      border: none;
+      border-bottom: 1px solid blue;
+      background-color: transparent;
+      padding: 15px;
+      width: 550px;
+      outline: 0;
+      color: white;
+    }
+
+    #frm::placeholder {
+      color: white;
+    }
+
+    #frm:focus {
+      box-shadow: inset 0 -1px 0;
+    }
+
+    .form-control:hover {
+      background-color: transparent;
+    }
+
+    .form-control:focus {
+      background-color: transparent;
+      outline: none;
+    }
+
+    .leavemsg {
+      margin-top: 40px;
+    }
+
+    .one .heading {
+      margin-top: 40px;
+    }
+
+    .two {
+      margin-top: 40px;
+    }
+
+    .three {
+      margin-top: 40px;
+    }
+
+    .text {
+      font-size: 18px;
+    }
+
+    hr {
+      width: 50px;
+      border: 2px solid;
+      color: rgb(0, 0, 255);
+      margin-left: 530px;
+      filter: contrast(200);
+    }
+    @media only screen and (max-width: 980px) {    
+      .main-header1
+      {
+        width:360px;
+      }
+      #frm {
+      border: none;
+      border-bottom: 1px solid blue;
+      background-color: transparent;
+      padding: 15px;
+      width: 350px;
+      outline: 0;
+      color: white;
+    }
+    #btn1 {
+      width: 350px;
+      text-transform: uppercase;
+      border: none;
+      padding: 10px;
+      border-radius: 50px;
+    }
+    .navbar
+    {
+      width: 360px;
+    }
+    }
+  </style>
+</head>
+
+<body>
+  <header id="main-header" style="top: 0px;">
+    <nav class="navbar navbar-dark bg-dark"> <!--navbar  navbar-expand-sm -->
+      <div class="container">
+        <a href="index.html" class="navbar-brand">needyesterday</a>
+        <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          <span class="navbar-toggler-icon"></span>
+        </a>
+      </div>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-body bg-dark">
+          <div class="dropdown mt-3" style="text-align:left;">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="index.html" class="nav-link text-white">Overview</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-white">UI Header</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-white">UI Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-white">UI Contents</a></li>
+              <li class="nav-item"><a href="about.html" class="nav-link text-white">UI About</a></li>
+              <li class="nav-item"><a href="blog3.html" class="nav-link text-white">UI Blog</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-white">UI Portfolio</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-white">UI Optin-Forms</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-white">UI Cards</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link text-white">UI Contacts</a></li>
+              <li class="nav-item"><a href="testimonials.html" class="nav-link text-white">UI Testimonials</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link text-white">UI Team</a></li>
+              <li class="nav-item"><a href="servises.html" class="nav-link text-white">UI Services</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link text-white">UI WireFrame</a></li>
+              <li class="nav-item"><a href="feature.html" class="nav-link text-white">UI Features</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+<!--contact-->
+  <div class="main-header1">
+    <div class="container">
+      <div class="et_pb_module et_pb_divider et_pb_divider_6 et_pb_divider_position_center et_pb_space">
+        <div class="et_pb_divider_internal"></div>
+      </div>
+      <hr>
+      <h1 class="top-heading text-center mt-4" style="font-size: 46px;"><b>Contact us</b></h1>
+      <h5 class="text text-center">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus
+        nibh. Proin eget</h5>
+      <h5 class="text text-center">tortor risus. Donec sollicitudin molestie malesuada.</h5>
+      <div class="row">
+        <div class="col-md-6 pt-3">
+          <div class="container1">
+            <div class="one">
+              <h5 class="heading">Need Help?</h5>
+            </div>
+            <div class="two">
+              <div class="form">
+                <h5 class="card-title"><i class="fa-solid fa-phone fx-5 me-4"></i><b>Phone</b></h5>
+              </div>
+              <div class="form ms-5">
+                <h6 class="card-text">+21 (123) 456-7890</h6>
+              </div>
+            </div>
+            <div class="three">
+              <div class="form">
+                <h5 class="card-title"><i class="fa-solid fa-location-dot fx-5 me-4"></i><b>Address</b></h4>
+              </div>
+              <div class="form ms-5">
+                <h6 class="card-text">123, Menlo Park, CA</h6>
+                <h6 class="card-text">San Francisco, 4567</h6>
+              </div>
+            </div>
+            <div class="two">
+              <div class="form">
+                <h5 class="card-title"><i class="fa-solid fa-clock fx-5 me-4"></i><b>Open Hours</b></h5>
+              </div>
+              <div class="form ms-5">
+                <h6 class="card-text">8PM – 5PM, Monday – Friday</h6>
+              </div>
+            </div>
+            <div class="four">
+              <div class="form2" style="margin-top: 25px; font-size: 20px;">
+                <a href="#"><i class="fa-brands fa-facebook-f" style="padding: 15px; color: white;"></i></a>
+               <a href="#"> <i class="fa-brands fa-linkedin-in" style="padding: 15px; color: white;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="padding: 15px; color: white;"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube" style="padding: 15px; color: white;"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" style="padding: 15px; color: white;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pt-3">
+          <h4 class="leavemsg">Leave us a message</h4>
+          <div class="form-floating mb-3">
+            <input type="name" class="form-control" id="frm" placeholder="Name">
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="frm" placeholder="Email">
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" id="frm" placeholder="Message"" style=" height: 100px"></textarea>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg btn-block mt-5 pt-3 pb-3" id="btn1">send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.js">
+    </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.js">
+  </script>
+</body>
+</html>
